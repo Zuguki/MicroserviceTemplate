@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Zakhar Guskov",
+    "classifications": [ "Web" ],
+    "identity": "Company.ServiceName.Service",
+    "name": "My microservice template",
+    "description": "This's template for fast creation on microservice",
+    "shortName": "goodgodservice",
+    "sourceName": "Company.ServiceName.Service",
+    "tags": {
+        "language": "C#",
+        "type": "solution"
+    },
+    "preferDefaultName": true
+}
