@@ -8,13 +8,13 @@
     ],
     "name": "My microservice template",
     "description": "This template is for quickly creating microservices in the onion architecture",
-    "identity": "Project.Microservice.Module",
+    "identity": "MicroserviceTemplate",
     "shortName": "ggservice",
     "tags": {
         "language": "C#",
         "type": "project"
     },
-    "sourceName": "Project.Microservice.Module",
+    "sourceName": "MicroserviceTemplate",
     "preferNameDirectory": true,
     "symbols": {
         "Framework": {
@@ -26,7 +26,8 @@
                     "choice": "net8.0"
                 }
             ],
-            "defaultValue": "net8.0"
+            "defaultValue": "net8.0",
+            "replaces": "{TargetFramework}"
         }
     },
     "sources": [
