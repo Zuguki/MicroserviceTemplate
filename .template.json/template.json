@@ -1,15 +1,46 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "Zakhar Guskov",
-    "classifications": [ "Web" ],
-    "identity": "Company.ServiceName.Service",
+    "classifications": [
+        "Common",
+        "Web",
+        "Web API"
+    ],
     "name": "My microservice template",
-    "description": "This's template for fast creation on microservice",
-    "shortName": "goodgodservice",
-    "sourceName": "Company.ServiceName.Service",
+    "description": "This template is for quickly creating microservices in the onion architecture",
+    "identity": "Project.Microservice.Module",
+    "shortName": "ggservice",
     "tags": {
         "language": "C#",
-        "type": "solution"
+        "type": "project"
     },
-    "preferDefaultName": true
+    "sourceName": "Project.Microservice.Module",
+    "preferNameDirectory": true,
+    "symbols": {
+        "Framework": {
+            "type": "parameter",
+            "description": "The target framework for the project.",
+            "datatype": "choice",
+            "choices": [
+                {
+                    "choice": "net8.0"
+                }
+            ],
+            "defaultValue": "net8.0"
+        }
+    },
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [
+                        ".vs/**",
+                        ".idea/**",
+                        "_ReSharper.Caches/**",
+                        ".template_config/**"
+                    ]
+                }
+            ]
+        }
+    ]
 }
