@@ -1,4 +1,6 @@
+using System;
 using Calabonga.AspNetCore.AppDefinitions;
+using Microsoft.AspNetCore.Builder;
 using Serilog;
 using Serilog.Events;
 

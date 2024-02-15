@@ -1,4 +1,7 @@
 ﻿using Calabonga.AspNetCore.AppDefinitions;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace MicroserviceTemplate.Api.Definitions.Mapping;
 

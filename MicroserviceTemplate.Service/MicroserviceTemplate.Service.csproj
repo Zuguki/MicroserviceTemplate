@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>{TargetFramework}</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
+<!--        <TargetFramework>{TargetFramework}</TargetFramework>-->
+        <TargetFramework>.net8.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 

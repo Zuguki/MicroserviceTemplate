@@ -1,4 +1,7 @@
-﻿using Calabonga.AspNetCore.AppDefinitions;
+﻿using System.Linq;
+using Calabonga.AspNetCore.AppDefinitions;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MicroserviceTemplate.Api.Definitions.Cors;
 

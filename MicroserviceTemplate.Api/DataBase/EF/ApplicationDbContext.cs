@@ -1,7 +1,9 @@
+using System;
 using MicroserviceTemplate.Api.DataBase.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace MicroserviceTemplate.Api.DataBase.EF;
 

@@ -1,5 +1,7 @@
 ﻿using Calabonga.AspNetCore.AppDefinitions;
 using MicroserviceTemplate.Api.DataBase.EF;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MicroserviceTemplate.Api.Definitions.DbContext;
 

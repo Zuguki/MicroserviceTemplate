@@ -1,6 +1,8 @@
 ﻿using Calabonga.AspNetCore.AppDefinitions;
 using MediatR;
 using MicroserviceTemplate.Api.Definitions.FluentValidating;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MicroserviceTemplate.Api.Definitions.Mediator;
 

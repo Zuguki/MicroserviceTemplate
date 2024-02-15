@@ -1,5 +1,6 @@
 ﻿using Calabonga.AspNetCore.AppDefinitions;
 using MassTransit;
+using Microsoft.AspNetCore.Builder;
 
 namespace MicroserviceTemplate.Api.Definitions.MassTransit;
 

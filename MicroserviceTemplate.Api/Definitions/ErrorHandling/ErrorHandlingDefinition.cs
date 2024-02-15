@@ -1,8 +1,12 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Security.Authentication;
 using Calabonga.AspNetCore.AppDefinitions;
 using FluentValidation;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Hosting;
 using Serilog;
 
 namespace MicroserviceTemplate.Api.Definitions.ErrorHandling;
