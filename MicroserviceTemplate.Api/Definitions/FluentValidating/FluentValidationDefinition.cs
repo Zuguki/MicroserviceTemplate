@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GoodGod.UserService.Web.Definitions.FluentValidating;
+namespace MicroserviceTemplate.Api.Definitions.FluentValidating;
 
 /// <summary>
 /// FluentValidation registration as MicroserviceDefinition

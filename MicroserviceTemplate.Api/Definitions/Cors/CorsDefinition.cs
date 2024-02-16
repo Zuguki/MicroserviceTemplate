@@ -38,4 +38,9 @@ public class CorsDefinition : AppDefinition
             });
         });
     }
+
+    public override void ConfigureApplication(WebApplication app)
+    {
+        app.UseCors(AppData.PolicyName);
+    }
 }
