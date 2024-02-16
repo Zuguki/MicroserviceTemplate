@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 
-namespace MicroserviceTemplate.Api.Definitions.Authorizations;
+namespace MicroserviceTemplate.Api.Definitions.Authorization;
 
 public class AuthorizationDefinition : AppDefinition
 {

@@ -6,12 +6,6 @@ namespace MicroserviceTemplate.Api.Definitions.Common;
 
 public class CommonDefinition : AppDefinition
 {
-    public override void ConfigureApplication(WebApplication app)
-    {
-        app.UseHttpsRedirection();
-        app.MapControllers();
-    }
-
     public override void ConfigureServices(WebApplicationBuilder builder)
     {
         builder.Services.AddLocalization();
@@ -19,5 +13,12 @@ public class CommonDefinition : AppDefinition
         builder.Services.AddHttpContextAccessor();
         builder.Services.AddResponseCaching();
         builder.Services.AddMemoryCache();
+    }
+    
+    public override void ConfigureApplication(WebApplication app)
+    {
+        app.UseHttpsRedirection();
+        app.UseRouting();
+        app.MapControllers();
     }
 }
